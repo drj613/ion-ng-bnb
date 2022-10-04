@@ -1,0 +1,7 @@
+{
+  "name": "ion-ng-bnb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
