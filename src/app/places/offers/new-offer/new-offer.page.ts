@@ -106,7 +106,8 @@ export class NewOfferPage implements OnInit {
         +this.form.value.price,
         new Date(this.form.value.dateFrom),
         new Date(this.form.value.dateTo),
-        this.form.value.location
+        this.form.value.location,
+        'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg'
       )
       .subscribe(() => {
         loadingEl.dismiss();
