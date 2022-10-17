@@ -138,7 +138,6 @@ export class PlaceDetailPage implements OnInit, OnDestroy {
             loadingEl.dismiss();
           });
         });
-
       }
     });
   }

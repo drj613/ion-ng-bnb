@@ -121,6 +121,17 @@ export class PlacesService {
       );
   }
 
+  // disabled because firebase functions cost money lol
+  // uploadImage(image: File) {
+  //   const uploadData = new FormData();
+  //   uploadData.append('image', image);
+
+  //   return this.http.post<{imageUrl: string, imagePath: string}>(
+  //     'firebase-upload-function-url',
+  //     uploadData
+  //   );
+  // }
+
   addPlace(
     title: string,
     description: string,
