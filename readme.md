@@ -15,12 +15,19 @@ export const environment = {
 
 You can also get around auth entirely by setting `AuthService._userIsAuthenticated` to always be true in `auth.service.ts`
 
+I didn't correctly set up image upload because the associated firebase function would also cost money.
+
+---
+
 To open in Android or iOS (only available on Mac), create a `www` folder in the root directory and create a blank `index.html` file inside of it. Must have Android Studio and Xcode installed
 
 Then run
-`npx cap run android`
+`ionic cap run android`
 or
-`npx cap run ios`
+`ionic cap run ios`
 
+Anytime you make changes, run
+`ionic cap sync`
+to sync the android/ios builds
 
-I didn't correctly set up image upload because the associated firebase function would cost money.
+---
